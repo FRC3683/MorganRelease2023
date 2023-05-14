@@ -1,0 +1,263 @@
+{
+  "NetworkTables": {
+    "retained": {
+      "limelight": {
+        "open": true
+      }
+    },
+    "transitory": {
+      "Shuffleboard": {
+        "EEscalator": {
+          "open": true
+        },
+        "INTAKE": {
+          "open": true
+        },
+        "SWERVY BOI": {
+          "open": true
+        },
+        "open": true
+      },
+      "limelight": {
+        "open": true
+      }
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Field v": "Field2d",
+      "/SmartDashboard/Mech2d": "Mechanism2d"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "height": 8.013679504394531,
+        "image": "Z:\\repo\\java\\Morgan\\2023-field.png",
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field v": {
+        "image": "Z:\\repo\\java\\Morgan\\2023-field.png",
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Mech2d": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT3)",
+    "serverTeam": "localhost"
+  },
+  "Plots": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "axis": [
+            {},
+            {
+              "max": 70.0,
+              "min": -30.0
+            }
+          ],
+          "height": 423,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state esc pos"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state lnx pos"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/snapshot line"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state wrist pos",
+              "yAxis": 1
+            }
+          ],
+          "yaxis2": true
+        }
+      ]
+    },
+    "Plot <1>": {
+      "plots": [
+        {
+          "axis": [
+            {},
+            {
+              "max": 600.0,
+              "min": -600.0
+            }
+          ],
+          "height": 435,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state esc vel"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state lnx vel"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/snapshot line"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/state wrist vel",
+              "yAxis": 1
+            }
+          ],
+          "yaxis2": true
+        }
+      ]
+    },
+    "Plot <2>": {
+      "plots": [
+        {
+          "height": 407,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/esc pos err"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/linx pos err"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/wrist pos err"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/snapshot line"
+            }
+          ]
+        }
+      ]
+    },
+    "Plot <3>": {
+      "plots": [
+        {
+          "height": 439
+        }
+      ]
+    },
+    "Plot <4>": {
+      "plots": [
+        {
+          "axis": [
+            {},
+            {
+              "autoFit": true
+            }
+          ],
+          "height": 0,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/wrist abs"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/EEscalator/wrist abs raw",
+              "yAxis": 1
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/SWERVY BOI/BL abs enc"
+            }
+          ],
+          "yaxis2": true
+        }
+      ]
+    }
+  }
+}
